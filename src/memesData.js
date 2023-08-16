@@ -15,7 +15,7 @@ export default {
       {
         id: "112126428",
         name: "Distracted Boyfriend",
-        url: "https://i.imgflip.com/30b1gx.jpg",
+        url: "https://i.imgflip.com/1g8my4.jpg",
       },
     ],
   },
