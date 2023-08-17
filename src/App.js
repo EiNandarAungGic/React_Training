@@ -7,6 +7,7 @@ import FormBody from "./components/FormBody";
 import Count from "./components/Count";
 import WindowTracker from "./components/WindowTracker";
 import TenziesMain from "./components/TenziesMain";
+import QuizzicalMainPage from "./components/QuizzicalMainPage";
 
 export default function App() {
   // plantData.map((plant) => {
@@ -17,5 +18,6 @@ export default function App() {
   // return <FormBody />;
   // return <Count />;
   // return <WindowTracker />;
-  return <TenziesMain />;
+  // return <TenziesMain />;
+  return <QuizzicalMainPage />;
 }

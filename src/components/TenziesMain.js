@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Die from "./Die";
 import Confetti from "react-confetti";
 import { nanoid } from "nanoid";
@@ -66,7 +66,7 @@ export default function TenziesMain() {
     <main className="bg-white h-400 max-w-800 rounded-5 p-20 flex flex-col justify-center items-center">
       {tenzies && <Confetti />}
       <h1 className="font-bold text-xl">Tenzies</h1>
-      <p className="items-center">
+      <p className="py-5">
         Roll until all dice are the same. Click each dice to freeze it at its
         current value between rolls.
       </p>
