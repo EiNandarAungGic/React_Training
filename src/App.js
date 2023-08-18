@@ -10,8 +10,10 @@ import TenziesMain from "./components/TenziesMain";
 import QuizzicalMainPage from "./components/QuizzicalMainPage";
 import ContextTest from "./components/ContextTest";
 import TaskContents from "./components/TaskContents";
+import JobBody from "./components/JobBody";
 
 export default function App() {
+  const MyContext = React.createContext("Hello React");
   // plantData.map((plant) => {
   //   return <Contact key={plant.id} {...plant} />;
   // });
@@ -23,5 +25,6 @@ export default function App() {
   // return <TenziesMain />;
   // return <QuizzicalMainPage />;
   // return <ContextTest />;
-  return <TaskContents />;
+  // return <TaskContents />;
+  return <JobBody />;
 }
