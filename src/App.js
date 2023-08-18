@@ -8,6 +8,8 @@ import Count from "./components/Count";
 import WindowTracker from "./components/WindowTracker";
 import TenziesMain from "./components/TenziesMain";
 import QuizzicalMainPage from "./components/QuizzicalMainPage";
+import ContextTest from "./components/ContextTest";
+import TaskContents from "./components/TaskContents";
 
 export default function App() {
   // plantData.map((plant) => {
@@ -19,5 +21,7 @@ export default function App() {
   // return <Count />;
   // return <WindowTracker />;
   // return <TenziesMain />;
-  return <QuizzicalMainPage />;
+  // return <QuizzicalMainPage />;
+  // return <ContextTest />;
+  return <TaskContents />;
 }

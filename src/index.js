@@ -1,13 +1,13 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
+import { CounterProvider } from "./contexts/CounterProvider";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-root.render(<App />);
-
-const names = ["alice", "bob"];
-names.map((name) => {
-  console.log(name[0].toUpperCase() + name.slice(1));
-});
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <CounterProvider>
+      <App />
+    </CounterProvider>
+  </React.StrictMode>
+);
