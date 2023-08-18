@@ -1,14 +1,20 @@
-import { createContext, useState } from "react";
+import React, { createContext, useState } from "react";
+
 export const CounterContext = createContext({
-  count: 0,
-  setCount: () => {},
+  data: [],
+  setData: () => {},
 });
 
 export const CounterProvider = ({ children }) => {
-  const [count, setCount] = useState(100);
+  const [data, setData] = useState([]);
+
+  const addData = (newData) => {
+    setData([...data, newData]);
+  };
+
   const value = {
-    count,
-    setCount,
+    data,
+    addData,
   };
 
   return (
