@@ -27,7 +27,7 @@ export default function JobBody() {
   ));
 
   return (
-    <main className="bg-teal-50">
+    <main className="pb-5">
       <JobHeader />
       {data.length !== 0 && <JobSearch />}
       {jobElement}

@@ -10,7 +10,7 @@ export default function JobMainContent(props) {
   };
 
   return (
-    <div className="flex justify-center mb-4">
+    <div className="flex justify-center">
       <div className="w-2/3 bg-white mt-2 shadow-lg rounded-lg md:flex">
         <div className="w-full md:w-1/2">
           <div className="flex bg-white-200 px-6 py-4 justify-between">
